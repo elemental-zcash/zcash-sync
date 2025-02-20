@@ -115,7 +115,7 @@ objc = { version = "0.2", features = [ "objc_exception" ], optional = true }
 block = { version = "0.1.6", optional = true }
 rust_decimal = "1.35.0"
 
-zcash-vote = { path = "../zcash-vote" }
+zcash-vote = { git = "https://github.com/hhanh00/zcash-vote", rev = "30bfba8" }
 
 [features]
 ledger = ["ledger-apdu", "ledger-transport-hid", "dotenv", "ureq" ]
